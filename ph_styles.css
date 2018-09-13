@@ -17,11 +17,15 @@
      url('cac_champagne.ttf') format('tff');
 }
    
+/* Made the fonts for the different sections on the webpage turn different & fancier. */
+
 @font-face {   
     font-family: Grunge;
     src: url('1942.woff') format('woff'),
      url('1942.tff') format('tff');
 }
+
+/* Made the fonts for the different sections on the webpage turn different & fancier. */
 
 @font-face {    
     font-family: Dobkin;
@@ -29,29 +33,41 @@
      url('DobkinPlain.ttf') format('ttf');
 }
 
+/* Made the fonts for the different sections on the webpage turn different & fancier. */
+
 /* Structural Styles */
 html {
     background-color: hsl(91, 8%, 56%);
 }
+
+/* makes the background of the page entirely this greenish/greyish. */
 
 body {
     background-color: hsl(58, 31%, 84%);
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
+/* This made the main page on my body this tanish, whiteish color. */
+
 header {
     background-color: black;
 }
+
+/* This made the bar with the buttons on the top turn black with white links.  */
 
 p {
     margin: 0px;
     padding: 5px 25px 25px 25px;
 }
 
+/* made the bit of text on top have nice spacing & style. */
+
 body>p {
     font-size: 1.1em;
     text-align: center;
 }
+
+/* Made all the main text in the 4 middle sections nicely styled. */
 
 address {
     font-style: normal;
@@ -60,6 +76,8 @@ address {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* Made the address displayed at the bottom have the address itself spaced out niceley, appears nicely & is sized nicely. */
 
 /* Navigation Styles */
 nav a:link, nav a:visited {
@@ -70,10 +88,14 @@ nav a:link, nav a:visited {
     color: white;
 }
 
+/* This makes the links diaplay white and it has them spaced out link from link correctly. */
+
 nav a:link, nav a:hover {
     color: hsla(0, 0%, 100%, 0.7);
     background-color: hsla(0, 0%, 42%, 0.7);
 }
+
+/* This made the links change color when i hover over them/ click on them. */
 
 /* Section Styles */
 .playbill h1 {
@@ -83,38 +105,55 @@ nav a:link, nav a:hover {
     padding: 20px 0px 10px 20px;
 }
 
+/* This is the start to linking all the buttons on the lines above the paragraph sections. */
+
 section#play1 {
     background-color: hsl(240, 100%, 88%);
 }
+
+/* Links all the buttons to the same buttons on the top giving the same affect. */
 
 section#play1 h1 {
     font-family: Champagne, cursive;
 }
 
+/* Links all the buttons to the same buttons on the top giving the same affect. */
+
 section#play2 {
     background-color: hsl(25, 88%, 73%)
 }
+
+/* Links all the buttons to the same buttons on the top giving the same affect. */
 
 section#play2 h1 {
     font-family: Grunge, 'Times New Roman', Times, serif;
 }
 
+/* Links all the buttons to the same buttons on the top giving the same affect. */
+
 section#play3 {
     background-color: hsl(0, 100%, 75%)
 }
+
+/* Links all the buttons to the same buttons on the top giving the same affect. */
 
 section#play3 h1 {
     font-family: Impact, Charcoal, sans-serif;
 }
 
+/* Links all the buttons to the same buttons on the top giving the same affect. */
+
 section#play4 {
     background-color: hsl(296, 86%, 86%)
 }
+
+/* Links all the buttons to the same buttons on the top giving the same affect. */
 
 section#play4 h1 {
     font-family: Dobkin, cursive;
 }
 
+/* Links all the buttons to the same buttons on the top giving the same affect. */
 
 /* Description List Styles */
 
@@ -124,8 +163,12 @@ dt {
     color: hsla(0, 0%, 0%, 0.4)
 }
 
+/* Affected all of the "written by" commands making them have dark faded text, and bold. */
+
 dd {
     font-size:1.3em;
     margin-left: 0px;
     margin-bottom: 10px;
 }
+
+/* Affected all of the "directed by" commands making them have dark faded text, and bold. */
